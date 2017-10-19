@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "seatTypeCode",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "seatTypeName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20171012145057",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "seat_type",
+    "pagination": "pagination",
+    "microserviceName": "bookingApp",
+    "searchEngine": false
+}

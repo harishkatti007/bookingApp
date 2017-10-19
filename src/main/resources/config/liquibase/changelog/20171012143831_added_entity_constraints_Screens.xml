@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Screens.
+    -->
+    <changeSet id="20171012143831-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="venues_id"
+                                 baseTableName="screens"
+                                 constraintName="fk_screens_venues_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="venues"/>
+
+    </changeSet>
+</databaseChangeLog>

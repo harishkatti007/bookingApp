@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012135136_added_entity_MovieDimensions.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012135332_added_entity_Regions.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012143555_added_entity_Venues.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012143831_added_entity_Screens.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012144158_added_entity_Movies.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012144805_added_entity_Screening.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012145057_added_entity_SeatType.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012145536_added_entity_SeatRows.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171013024843_added_entity_Seating.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171013025013_added_entity_User.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171013025731_added_entity_UserAccount.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171013030244_added_entity_Bookings.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="classpath:config/liquibase/changelog/20171012143555_added_entity_constraints_Venues.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012143831_added_entity_constraints_Screens.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012144158_added_entity_constraints_Movies.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012144805_added_entity_constraints_Screening.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171012145536_added_entity_constraints_SeatRows.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171013024843_added_entity_constraints_Seating.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20171013030244_added_entity_constraints_Bookings.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+</databaseChangeLog>

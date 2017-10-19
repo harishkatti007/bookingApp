@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Screening.
+    -->
+    <changeSet id="20171012144805-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="screens_id"
+                                 baseTableName="screening"
+                                 constraintName="fk_screening_screens_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="screens"/>
+
+        <addForeignKeyConstraint baseColumnNames="movies_id"
+                                 baseTableName="screening"
+                                 constraintName="fk_screening_movies_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="movies"/>
+
+    </changeSet>
+</databaseChangeLog>
